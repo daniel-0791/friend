@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sanlingyi.android.photo.lib.widget.SquareRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/photo_bg_ui"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/photo_griditem_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:src="@drawable/photo_add_picture"
+        android:scaleType="centerCrop"
+        android:focusable="false"
+        />
+    <CheckBox 
+        android:id="@+id/photo_griditem_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:src="@drawable/photo_btn_check_off"
+       	style="@style/photo_CheckBox"
+       	android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="10dip"
+        />
+
+</com.sanlingyi.android.photo.lib.widget.SquareRelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.friendcircle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+    <!-- 允许联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许读取手机状态 用于创建BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.example.friendcircle.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.friendcircle.SmsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.RegisterNextActivity"
+            android:label="@string/title_activity_zhu_ce_next" >
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.SettingActivity"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.FriendActivity"
+            android:label="@string/title_activity_friend" >
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.AddPostActivity"
+            android:label="@string/title_activity_add_post" >
+        </activity>
+        <activity
+            android:name="com.sanlingyi.android.photo.lib.PhotoSelectFilePathActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sanlingyi.android.photo.lib.PhotoSelectImagePathActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.friendcircle.CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+    </application>
+
+</manifest>

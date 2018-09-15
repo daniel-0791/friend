@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FriendCircle/FriendCircle.iml" filepath="$PROJECT_DIR$/FriendCircle/FriendCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photo_lib/photo_lib.iml" filepath="$PROJECT_DIR$/photo_lib/photo_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/相册调用测试/相册调用测试.iml" filepath="$PROJECT_DIR$/相册调用测试/相册调用测试.iml" />
+    </modules>
+  </component>
+</project>

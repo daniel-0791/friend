@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/photo_bg_ui"
+    android:orientation="vertical" >
+
+     <include 
+         android:id="@+id/photo_select_filepath_title"
+         layout="@layout/photo_title_layout"
+         />   
+    <ListView 
+	   android:id="@+id/photofile_select_listview"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:fadingEdge="none"
+	   android:cacheColorHint="#00000000"
+	   android:listSelector="#00000000"
+	   android:divider="@drawable/photo_btn_health_line" 
+	   android:overScrollMode="never"
+	   style="@style/photo_ScrollbarStyle"
+	></ListView>
+
+</LinearLayout>

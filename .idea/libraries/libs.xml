@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/rxandroid-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/BmobSMS_V1.0.1_20150710.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/gson-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/BmobSDK_3.5.1_20160719.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/okhttp-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/picasso-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/rxjava-1.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/libs/okio-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

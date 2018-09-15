@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <!-- 所有UI页面使用的背景色 #e8e8e8-->
+    <color name="photo_bg_ui">#ffffff</color>
+    <color name="photo_black">#191919</color>
+     <!-- 灰色or淡黑色 -->
+    <color name="photo_ctv_black">#ff3a3a3a</color>
+    <!-- 列表按下的颜色（灰色） -->
+    <color name="photo_listview_item_press_color">#E6E6E6</color>
+    
+    <!-- 选择照片半透明黑色 (范晓锋)-->
+	<color name="photo_image_checked_bg">#66000000</color>
+	
+	<!-- 纯白色 -->
+	<color name="photo_white">#ffffffff</color>
+	
+</resources>

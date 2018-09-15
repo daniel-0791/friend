@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/BmobSDK_3.5.1_20160719-7f1b41188060a031388b493fde890ef1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/android-support-v4-a06c6e3427e5196e26f5dcf830d0edbe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/rxjava-1.1.6-d00dbf70a64635612911674c9c4a0aae.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/bolts-tasks-1.4.0-0c19299b64ee081961fe8339cb11d78e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/drawee3-d808cfeb817ddf5c25d2a2fa0adf70a8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/okio-1.6.0-ac75b6e6e2d889edd4601846956f0c5c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/rxandroid-1.2.0-1cdcb70ffd0a523de23d6d19f4c1d998.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/photo_lib-47db662c3d93d299f43a9e117fc131b5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/gson-2.6.2-f8c33819a0a218bad103a943c918eedf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/BmobSMS_V1.0.1_20150710-a47f325aa5cf120cd65ce1a423e75a9b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/imagepipeline-okhttp-v0.12.0-5454dad7d780208649076bdd691aa2ee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/okio-1.7.0-b5fe0a6c39eeda7e9af183921b9c5e35.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/picasso-2.5.2-41e40c134ecaea9b3a8d0fa74cea3abd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/drawee-v0.12.0-e247df4532b1bab42f193ef8b92e260a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/okhttp-2.7.4-b5463ecd90f9fbec502b263a361d09db.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/fresco-v0.12.0-f62b7d16bfb3103d3adebee6e0844b16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/imagepipeline-base-v0.12.0-f44dcc812c4e857584a95b45238ca812.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/okhttp-3.3.1-667a3959920ad8692164d403bab6801b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/library-2.4.0-dcc64f80674838fa30037c41ad7f2d10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/static-webp-v0.12.0-0cbf9cc2a0f6811b56bfdb021d2fc405.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/android-support-v4-9c69c4f07421bea49287f1ecf3f68b60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/fbcore-v0.12.0-83429d629ac7d6b86627a0c59e89ab67.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FriendCircle/bin/dexedLibs/imagepipeline-v0.12.0-efd05e93aa0c768de0e4f8a75df66702.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

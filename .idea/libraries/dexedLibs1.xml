@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dexedLibs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/相册调用测试/bin/dexedLibs/photo_lib-47db662c3d93d299f43a9e117fc131b5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/相册调用测试/bin/dexedLibs/android-support-v4-867b182b4a7a848f4364f50751200650.jar!/" />
+      <root url="jar://$PROJECT_DIR$/相册调用测试/bin/dexedLibs/android-support-v4-41580f5b63112c851b30a5735d9760fc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/相册调用测试/bin/dexedLibs/photo_lib-7f6d23dfc830a43b0f86559f201338f6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

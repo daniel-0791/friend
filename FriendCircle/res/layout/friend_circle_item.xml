@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_pic"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/iv_pic"
+        android:text="用户名"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_username"
+        android:layout_alignBottom="@+id/tv_username"
+        android:layout_alignParentRight="true"
+        android:text="发帖时间" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_username"
+        android:layout_below="@+id/tv_username"
+        android:layout_marginTop="10dp"
+        android:text="帖子内容" />
+
+    <com.example.friendcircle.view.MyGridView
+        android:id="@+id/gv_img_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp" >
+    </com.example.friendcircle.view.MyGridView>
+
+    <com.example.friendcircle.view.MyListView
+        android:id="@+id/lv_comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gv_img_list"
+        android:layout_margin="10dp"
+        android:gravity="center" >
+    </com.example.friendcircle.view.MyListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lv_comment_list"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_dianzan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点赞" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

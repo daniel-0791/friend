@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/photo_bg_list_item"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    >
+       <ImageView
+        android:id="@+id/photo_image" 
+        android:layout_width="72dip"
+        android:layout_height="72dip"
+        android:layout_marginLeft="10dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo_add_picture"
+        />
+	<TextView 
+	    android:id="@+id/photo_name_content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+	    android:text="这里显示文字"
+	    android:textColor="@color/photo_ctv_black"
+	    />
+
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:gravity="center|right"
+	    >
+
+		<ImageView
+		    android:id="@+id/photo_select_iamgeFile"
+		    android:layout_width="40dip"
+		    android:layout_height="match_parent"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+			android:src="@drawable/photo_btn_select_on"	
+			android:layout_marginRight="10dip"	
+			android:visibility="gone"    
+		    />
+
+	</RelativeLayout> 
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string  name="photo_noselect_image">你还没有选择图片</string>
+ 	<string  name="photo_album">相册</string>
+ 	<string  name="photo_image">图片</string>
+ 	
+ 	<string  name="photo_determine">确定</string>
+	<string  name="photo_preview">预览</string>
+</resources>

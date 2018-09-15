@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="photo_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/photo_lib/bin/photo_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
